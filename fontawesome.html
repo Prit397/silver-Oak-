@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Demo CSS3</title>
+        <style type="text/css">
+            div
+            {
+                height:200px;
+                width:200px;
+                transition:3s;
+                font-size:40px;
+                font-weight:bold;
+                color:darkblue;
+                background-color:lightblue;
+            }
+            
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(100px,100px);
+                   -moz-transform:translate(100px,100px);
+                    -ms-transform:translate(100px,100px);
+                     -o-transform:translate(100px,100px);
+                        transform:translate(100px,100px);
+                      background-color:yellow;
+                      color:green; 
+            }
+			
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:pink;
+                      color:blue; 
+         
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:lightblue;
+                      color:maroon; 
+         
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(45deg);
+                   -moz-transform:skew(45deg);
+                    -ms-transform:skew(45deg);
+                     -o-transform:skew(45deg);
+                        transform:skew(45deg);
+                      background-color:aquamarine;
+                      color:seagreen; 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.5,0.5);
+                   -moz-transform:scale(1.5,0.5);
+                    -ms-transform:scale(1.5,0.5);
+                     -o-transform:scale(1.5,0.5);
+                        transform:scale(1.5,0.5);
+                      background-color:gray;
+                      color:black; 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:0;
+            }
+            #RGBADiv:hover
+            {
+                background:darkgoldenrod (128,128,0,0.5);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:10x 10px 30px darkgreen (10, 10, 26);
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:10px 10px 10px darkblue;
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:50%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body><center> 
+        <div id="TranslateDiv">Prit</div><hr />
+        <div id="RotateDiv">silver oak univercity</div><hr />
+		<div id="RotateDiv3D">BCA</div><hr />
+        <div id="SkewDiv">397</div><hr />
+        <div id="ScaleDiv">SMOR</div><hr />
+        <div id="OpacityDiv">LDP-2</div><hr />
+        <div id="RGBADiv">DBMS</div><hr />
+        <div id="BoxShadowDiv">OS</div><hr />
+        <div id="TextShadowDiv">DS</div><hr />
+		<div id="BorderRadiusDiv">HTML</div><hr />
+		<div id="OverFlowDiv">sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou  sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou sou </div><hr />
+    </center></body>
+</html>
