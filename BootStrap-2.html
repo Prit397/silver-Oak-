@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ 
+  <style>
+     .navbar {
+      margin-bottom: 0;
+      margin-left: 80px;
+       
+    }
+    .row.content {height: 297px}
+
+    .sidenav {
+      padding-top: 30px;
+      background-color:aquamarine;
+      height: 100%;
+      
+    }
+    
+    footer {
+      background-color:lightblue;
+      color:pink;
+      padding: 15px;
+    }
+    @media screen and (max-width: 200px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+       
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+
+  <div cl mass="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse"  id="myNavbar" style="background-color:burlywood " > 
+      <ul class="nav navbar-nav" style="color:black;">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-1  sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-8 text-left" style="color:blueviolet ; background-color: darksalmon;"> 
+      <h1>Dear Best Friend</h1>
+      <p> no matter how many friends i have , <br>
+          no matter how much i talk to them <br>
+          and spend time with them, always remember that  no one can replace you. <br>
+          you were, are and will always be <br>
+          irreplaceble. you will always have <br>
+          a special place in my heart
+          
+
+        <hr>
+      <h3>from :</h3>
+      <p>Prit...</p>
+    </div>
+ 
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
